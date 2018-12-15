@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>EasyCQS.Example.Command</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>EasyCQS.Example.Command</PackageId>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\EasyCQS.Core\EasyCQS.Core.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,20 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{39C54D54-292E-408B-B5C4-CB85BFD1322C}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EasyCQS.Core", "src\EasyCQS.Core\EasyCQS.Core.xproj", "{F9D56D12-A9F1-437D-8402-89F31CE01476}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example", "example", "{D14ADE2F-1805-4012-93E2-0674E2D541EF}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EasyCQS.Example.Command", "example\EasyCQS.Example.Command\EasyCQS.Example.Command.xproj", "{F19B4942-3344-4912-BE55-901AC076D14C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AF895164-97B1-4026-91AD-6C071B069474}"
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyCQS.Core", "src\EasyCQS.Core\EasyCQS.Core.csproj", "{F9D56D12-A9F1-437D-8402-89F31CE01476}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyCQS.Example.Command", "example\EasyCQS.Example.Command\EasyCQS.Example.Command.csproj", "{F19B4942-3344-4912-BE55-901AC076D14C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,5 +37,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F9D56D12-A9F1-437D-8402-89F31CE01476} = {39C54D54-292E-408B-B5C4-CB85BFD1322C}
 		{F19B4942-3344-4912-BE55-901AC076D14C} = {D14ADE2F-1805-4012-93E2-0674E2D541EF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {023F27A1-7447-4642-87B8-9B6DD0845804}
 	EndGlobalSection
 EndGlobal
